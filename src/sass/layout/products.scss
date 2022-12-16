@@ -1,0 +1,15 @@
+.product {
+
+}
+
+.product .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.product__img {
+    width: 224px;
+    height: auto;
+    // background-color: #fff;
+}
