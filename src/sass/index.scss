@@ -1,2 +1,11 @@
 @import './common';
-@import './example';
+@import './variables';
+@import './layout/header.scss';
+@import './layout/hero.scss';
+@import './layout/appointment.scss';
+@import './layout/features.scss';
+@import './layout/services.scss';
+@import './layout/works.scss';
+@import './layout/products.scss';
+@import './layout/footer.scss';
+

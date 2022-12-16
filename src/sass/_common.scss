@@ -1,1 +1,85 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+.container {
+    // max-width: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (min-width: 480px) {
+        max-width: var(--mobile);
+    }
+
+    @media screen and (min-width: 768px) {
+        max-width: var(--tablet);
+    }
+
+    @media screen and (min-width: 1200px) {
+        max-width: var(--desktop);
+    }
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+    color: var(--main-text-clr);
+    background-color: var(--main-clr);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--link-color);
+
+}
+
+.title {
+    font-weight: 700;
+    font-style: 32px;
+    line-height: 1.22;
+    margin-bottom: 28px;
+    color: var(--main-text-clr);
+}
+
+.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
