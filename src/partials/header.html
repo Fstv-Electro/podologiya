@@ -1,13 +1,22 @@
 <header class="header" id="header">
   <div class="container">
     <div class="header-logo">
+      <button class="header__menu-close js-open-btn" type="button">
+        <svg class="header__menu-icon" width="24" height="24">
+          <use
+            href="/src/images/sprite-icons.svg#menu"
+            class="header__menu-use"
+          ></use>
+        </svg>
+      </button>
       <a href="#header" class="header__link link"> P&B center</a>
     </div>
     <nav class="header-nav">
       <ul class="header-nav__list list">
         <li class="header-nav__item">
           <a href="#appointments" class="header-nav__link link"
-            >Запис на прийом</a
+            >Запис на прийом
+            <span class="header-nav__discr--closed">В розробці</span></a
           >
         </li>
         <li class="header-nav__item">
@@ -22,4 +31,5 @@
       </ul>
     </nav>
   </div>
+  <include src="./partials/mobile-menu.html"></include>
 </header>

@@ -8,15 +8,15 @@
     margin-right: auto;
 
     @media screen and (min-width: 480px) {
-        max-width: var(--mobile);
+        max-width: 767px;
     }
 
     @media screen and (min-width: 768px) {
-        max-width: var(--tablet);
+        max-width: 1199px;
     }
 
     @media screen and (min-width: 1200px) {
-        max-width: var(--desktop);
+        max-width: 1600px;
     }
 }
 
@@ -82,4 +82,17 @@ address {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
+    transform: translateX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
 }
