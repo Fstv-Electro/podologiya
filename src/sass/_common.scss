@@ -1,7 +1,7 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 
 .container {
-    // max-width: 320px;
+    max-width: 320px;
     padding-left: 20px;
     padding-right: 20px;
     margin-left: auto;
@@ -83,7 +83,6 @@ address {
     opacity: 0;
     pointer-events: none;
     transform: translateX(0);
-    transition: transform 250ms ease-in-out;
 }
 
 .visually-hidden {
