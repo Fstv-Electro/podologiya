@@ -4,6 +4,7 @@
 
 .product .container {
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 24px;
 }
@@ -12,4 +13,9 @@
     width: 224px;
     height: auto;
     // background-color: #fff;
+
+    @media screen and (min-width: 768px) {
+        width: 180px;
+        gap: 12px;
+    }
 }
