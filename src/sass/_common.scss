@@ -6,6 +6,8 @@
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 36px;
+    margin-bottom: 36px;
 
     @media screen and (min-width: 480px) {
         max-width: 767px;
@@ -63,6 +65,16 @@ button {
 
 address {
     font-style: normal;
+}
+
+section:nth-child(even) {
+    border-bottom: 2px solid var(--main-text-clr);
+}
+
+section:nth-child(odd) {
+    border-bottom: 2px solid;
+    border-image-source: linear-gradient(45deg, #e9b84f, #f6ddad);
+    border-image-slice: 1;
 }
 
 .list {

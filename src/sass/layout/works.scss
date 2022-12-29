@@ -1,0 +1,51 @@
+
+.work .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.work__title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.work__list {
+
+}
+
+.work__item {
+    text-align: center;
+}
+
+.work__box {
+
+}
+
+.work__box__photo{
+    margin-inline: auto;
+    margin-bottom: 18px;
+    width: 240px;
+    border: 2px solid;
+    border-image-source: linear-gradient(45deg, #e9b84f, #f6ddad);
+    border-image-slice: 1;
+
+}
+
+.work__box__name {
+    margin-bottom: 8px;
+}
+
+.work__box__specialty {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.services__list {
+
+}
+
+.services__item {
+
+}
+
